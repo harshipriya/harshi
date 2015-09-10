@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Page-1" NameU="Page-1">
+			<Shapes>
+				<Shape ID="8" UniqueID="{5BAED908-251F-4C3C-A135-075CC2E6C806}" Name="Panel" NameU="Panel" Master="5">
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">5.500000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{D76E407A-416A-4C8A-A969-8B64F1B74A7B}" Name="Text box" NameU="Text box" Master="6">
+					<Text>LOGIN PAGE</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">10.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{BD4AFEFF-6691-4706-B92A-E0D5BD455F9A}" Name="Text box.29" NameU="Text box.29" Master="6">
+					<Text>Username or Email</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.562500000000001</PinX>
+						<PinY Unit="IN_F">8.175000000000001</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{D08520F6-3D0C-4DAC-AB04-0F2E990C5426}" Name="Text box.30" NameU="Text box.30" Master="6">
+					<Text>Password</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.562500000000002</PinX>
+						<PinY Unit="IN_F">7.675000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{CB039B57-229C-448F-8D2D-4146357E9A2C}" Name="Button.31" NameU="Button.31" Master="7">
+					<Text>Login</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.126736111111111</PinX>
+						<PinY Unit="IN_F">6.568750000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{552BEF29-5BEA-48C1-AC45-041319C556AA}" Name="Label.43" NameU="Label.43" Master="9">
+					<Text>Not a registered user </Text>
+					<XForm>
+						<PinX Unit="IN_F">2.250000000000000</PinX>
+						<PinY Unit="IN_F">5.906250000000003</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="45" UniqueID="{267E16AC-2CED-4C87-A801-03DF204701E8}" Name="Hyperlink" NameU="Hyperlink" Master="10">
+					<Text>Register here!</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.220486111111111</PinX>
+						<PinY Unit="IN_F">5.862499999999994</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>../google.com</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="46" UniqueID="{0315B4A6-F71C-423D-8317-5215A3EF7DEB}" Name="Label" NameU="Label" Master="9">
+					<Text>Lost  password?</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.750000000000001</PinX>
+						<PinY Unit="IN_F">7.225000000000005</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="47" UniqueID="{F0CD4525-29A4-47A0-9F0F-BB86D55D0195}" Name="Hyperlink.47" NameU="Hyperlink.47" Master="10">
+					<Text>Reset Here!</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.781250000000000</PinX>
+						<PinY Unit="IN_F">7.225000000000005</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description></HLURL:Description>
+										<HLURL:Address>http://www.google.com</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>http://www.google.com</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="4" Name="Page-2" NameU="Page-2">
+			<Shapes>
+				<Shape ID="2" UniqueID="{9CC84D91-E285-4525-982F-A5BCCB5C4EC3}" Name="Panel" NameU="Panel" Master="5">
+					<XForm>
+						<PinX Unit="IN_F">4.232906758448134</PinX>
+						<PinY Unit="IN_F">5.500000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1" UniqueID="{CC8DEA73-4398-4159-92B7-E0C20D393B85}" Name="Text box" NameU="Text box" Master="6">
+					<Text>MY ACCOUNT</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.107906758448134</PinX>
+						<PinY Unit="IN_F">10.429795782404240</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{736C8B2F-6209-435B-B807-E2E06F650DFB}" Name="Search" NameU="Search" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">7.671875153649204</PinX>
+						<PinY Unit="IN_F">10.429795782404240</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{A2FF8759-74AE-44DD-95EF-0D1F4385F1AE}" Name="Label" NameU="Label" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">1.215813516896267</PinX>
+						<PinY Unit="IN_F">7.421875000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{3C838608-6E65-4876-B111-3AD054ABC1E6}" Name="Button" NameU="Button" Master="7">
+					<Text>Start messaging</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.561765879224067</PinX>
+						<PinY Unit="IN_F">8.471875000000001</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{CA02E088-C61B-4EF4-BB0A-B62A670D8A6A}" Name="Button.28" NameU="Button.28" Master="7">
+					<Text>Add Friends</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.232906758448134</PinX>
+						<PinY Unit="IN_F">7.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{71205DE6-1641-459C-8DB5-A2349E6562E7}" Name="Button.37" NameU="Button.37" Master="7">
+					<Text>Create Group</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.232906758448133</PinX>
+						<PinY Unit="IN_F">6.656248271442210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="45" UniqueID="{EE9DABE4-3A89-4461-B7CA-2E16FA7B5C5E}" Name="View options" NameU="View options" Master="14">
+					<XForm>
+						<PinX Unit="IN_F">0.607187269526197</PinX>
+						<PinY Unit="IN_F">10.345060353220790</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="48" UniqueID="{02C66967-F1F8-4FE5-B137-A896130D5456}" Name="Configure" NameU="Configure" Master="15">
+					<XForm>
+						<PinX Unit="IN_F">1.389531211587700</PinX>
+						<PinY Unit="IN_F">10.345060353220790</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="76" UniqueID="{264474BA-5421-44A2-8E10-107E5FC63858}" Name="Chat" NameU="Chat" Master="17">
+					<XForm>
+						<PinX Unit="IN_F">6.258647937172038</PinX>
+						<PinY Unit="IN_F">8.471875000000001</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="77" UniqueID="{685879F5-2AE6-458A-9B53-F8B30404A734}" Name="Button.77" NameU="Button.77" Master="7">
+					<Text>Delete account</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.232906758448133</PinX>
+						<PinY Unit="IN_F">5.968744814326629</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="85" UniqueID="{FF5BEF30-2BBB-4F61-BF2B-FD890FE4D632}" Name="Button.85" NameU="Button.85" Master="7">
+					<Text>Logoff</Text>
+					<XForm>
+						<PinX Unit="IN_F">1.715813516896267</PinX>
+						<PinY Unit="IN_F">3.328124423814069</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="100" UniqueID="{C98F9035-3978-4D31-9107-EBAB82A0B9E4}" Name="Button.100" NameU="Button.100" Master="7">
+					<Text>Block Friend</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.232906758448133</PinX>
+						<PinY Unit="IN_F">6.312496542884420</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="5" Name="Page-3" NameU="Page-3">
+			<Layer IX="0">
+				<Name>Data Graphic</Name>
+				<NameUniv>Data Graphic</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="13" UniqueID="{9A111928-3978-45E7-A197-2B8CB0F5630F}" Name="Panel" NameU="Panel" Master="5">
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">5.500000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{4AB13035-BBAB-4890-8CD2-B80068C46A33}" Name="List box item" NameU="List box item" Master="12">
+					<Text>Chat list</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">10.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{31CC7E7E-355C-4023-9691-B552210BDF6E}" Name="Search" NameU="Search" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">7.750000000000000</PinX>
+						<PinY Unit="IN_F">10.361716668278230</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="177" UniqueID="{B1B65170-2F61-43F2-9C90-D32CD69718E0}" Name="Refresh" NameU="Refresh" Master="27">
+					<XForm>
+						<PinX Unit="IN_F">7.250000000000000</PinX>
+						<PinY Unit="IN_F">10.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="178" UniqueID="{975A51D1-ED72-4E25-92C7-0512ED629499}" Name="Question icon" NameU="Question icon" Master="28">
+					<XForm>
+						<PinX Unit="IN_F">2.666666666719261</PinX>
+						<PinY Unit="IN_F">4.250000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="181" UniqueID="{D37991A7-C46C-438C-B73B-6DFD7E799907}" Name="Button" NameU="Button" Master="7">
+					<Text>	Friend 10</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">5.680150926732184</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="197" UniqueID="{6024A732-9DE7-46BE-B7D4-0130F8CC8134}" Name="Button.197" NameU="Button.197" Master="7">
+					<Text>	Friend 8</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">6.555150926732185</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="201" UniqueID="{2D04A41F-5A87-4CB5-B6C1-4E1F77ABBE7C}" Name="Button.201" NameU="Button.201" Master="7">
+					<Text>	Friend 7</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">7.008584877886976</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="205" UniqueID="{AF138B66-C272-4ACE-887B-C909E6A0B515}" Name="Button.205" NameU="Button.205" Master="7">
+					<Text>	Friend 6</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">7.462018829041768</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="209" UniqueID="{AC17A4F8-185F-4C5C-8F7F-A9B36789DF34}" Name="Button.209" NameU="Button.209" Master="7">
+					<Text>	Friend 3</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">8.822320682506149</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="213" UniqueID="{1A4300DB-F4A7-473C-ADFB-93438993AEEE}" Name="Button.213" NameU="Button.213" Master="7">
+					<Text>	Friend 5</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">7.915452780196562</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="217" UniqueID="{66AE03B3-8F22-441F-BCE2-8BCD340D2BB1}" Name="Button.217" NameU="Button.217" Master="7">
+					<Text>	Friend 9</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">6.121325463366093</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="221" UniqueID="{2A3FFA2B-1530-4C5F-A28D-318E2F92C744}" Name="Button.221" NameU="Button.221" Master="7">
+					<Text>	Friend 4</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">8.368886731351356</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="225" UniqueID="{93389FDE-CEA4-4D47-820F-92225CEC22DF}" Name="Button.225" NameU="Button.225" Master="7">
+					<Text>	Friend 2</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">9.273283024422607</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="229" UniqueID="{896CCA08-7759-4244-BE12-E879E88EA7FB}" Name="Button.229" NameU="Button.229" Master="7">
+					<Text>	Friend 1</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">9.752471609238340</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="233" UniqueID="{68F6EB7E-7405-4D29-8F78-911D61F0B290}" Name="Button.233" NameU="Button.233" Master="7">
+					<Text>Invite friends</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.000000000000000</PinX>
+						<PinY Unit="IN_F">4.791666666719261</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="237" UniqueID="{1C813DEA-A995-4D16-A2A9-C75395B69949}" Name="Button.237" NameU="Button.237" Master="7">
+					<Text>Contact Help</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">4.250000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="241" UniqueID="{3FDE69B5-D6B7-4139-99C7-A8F644486B11}" Name="View options" NameU="View options" Master="14">
+					<XForm>
+						<PinX Unit="IN_F">0.625000000000000</PinX>
+						<PinY Unit="IN_F">10.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="242" UniqueID="{CDE89FBC-1DCF-403B-9E65-70A46195813C}" Name="Home" NameU="Home" Master="22">
+					<XForm>
+						<PinX Unit="IN_F">1.125000000000000</PinX>
+						<PinY Unit="IN_F">10.375000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="267" UniqueID="{C084D6D0-3346-466B-8276-EAFB9E240F89}" Name="User" NameU="User" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.500000000000000</PinX>
+						<PinY Unit="IN_F">9.768797072604432</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="269" UniqueID="{52081E4E-A35A-4802-AE55-288E7A19BC97}" Name="User.269" NameU="User.269" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.646654138075431</PinX>
+						<PinY Unit="IN_F">9.256146145872245</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="270" UniqueID="{EC4B2766-02C4-4FBF-B7DE-04FFF287F1A8}" Name="User.270" NameU="User.270" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.646654138075431</PinX>
+						<PinY Unit="IN_F">8.802712194717451</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="271" UniqueID="{C222393B-ECED-4C77-8C2C-BAF7D816BC68}" Name="User.271" NameU="User.271" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.646654138075431</PinX>
+						<PinY Unit="IN_F">8.386023609901729</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="272" UniqueID="{9481366F-8081-4D49-96FF-94308D70A647}" Name="User.272" NameU="User.272" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.521654138075431</PinX>
+						<PinY Unit="IN_F">7.915452780196562</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="273" UniqueID="{73ACEBD7-FDB0-4BB8-80FD-20AED5022C98}" Name="User.273" NameU="User.273" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.646654138075431</PinX>
+						<PinY Unit="IN_F">7.442410341253072</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="274" UniqueID="{7D9E4816-4223-48AE-B317-70CB328539EC}" Name="User.274" NameU="User.274" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.646654138075431</PinX>
+						<PinY Unit="IN_F">6.988976390098277</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="275" UniqueID="{238A0E02-56F4-45D9-9AC1-14FB8FD9D03A}" Name="User.275" NameU="User.275" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.646654138075431</PinX>
+						<PinY Unit="IN_F">6.574759414520882</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="276" UniqueID="{8E3EA31D-7E3A-4C8D-8509-1E26321F5B19}" Name="User.276" NameU="User.276" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.646654138075431</PinX>
+						<PinY Unit="IN_F">6.121325463366090</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="277" UniqueID="{D4E60FA9-58DF-47BA-A224-BD2E7115B2FE}" Name="User.277" NameU="User.277" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.521654138075431</PinX>
+						<PinY Unit="IN_F">5.680150926732184</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="6" Name="Page-4" NameU="Page-4">
+			<Layer IX="0">
+				<Name>Data Graphic</Name>
+				<NameUniv>Data Graphic</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{10880555-39BF-4851-840F-F5A87FCF9988}" Name="Panel" NameU="Panel" Master="5">
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">5.500000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{5CAC4367-9352-4784-BFCA-5FFBD9EBE635}" Name="Text box" NameU="Text box" Master="6">
+					<Text>Friend 5</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">9.687500614598324</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{290CBD99-90A6-4449-9AF2-0378D9DEDEBF}" Name="Text box.9" NameU="Text box.9" Master="6">
+					<Text>Hi</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.375000000000000</PinX>
+						<PinY Unit="IN_F">9.000000614598324</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{F8AE37F2-3EF0-4563-8099-7FFDC0645C2D}" Name="Text box.10" NameU="Text box.10" Master="6">
+					<Text>Hello</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.000000000000000</PinX>
+						<PinY Unit="IN_F">8.000000614598326</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{3A65CF18-ACAE-4BE9-9A89-B42F2709CB66}" Name="Text box.11" NameU="Text box.11" Master="6">
+					<Text>How are you?</Text>
+					<XForm>
+						<PinX Unit="IN_F">6.375000000000000</PinX>
+						<PinY Unit="IN_F">7.249999385401676</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{D7B466CF-4EE3-4595-A160-847D9A0854BC}" Name="List box item" NameU="List box item" Master="12">
+					<Text>Enter text here </Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">0.562500000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{C519DBDA-6678-4969-972C-DBD488CFE2E5}" Name="Text box.16" NameU="Text box.16" Master="6">
+					<Text>Message</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">10.375000307299160</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{B98BC818-5623-4204-AA8B-FC47BA4D352C}" Name="Photos" NameU="Photos" Master="33">
+					<XForm>
+						<PinX Unit="IN_F">7.364130434782870</PinX>
+						<PinY Unit="IN_F">0.611875382861741</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{37AD883B-E05B-447D-B5EB-035926E97654}" Name="Attachment" NameU="Attachment" Master="34">
+					<XForm>
+						<PinX Unit="IN_F">7.904062397584173</PinX>
+						<PinY Unit="IN_F">0.616250000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{7F61274B-9823-4B76-A921-74198F413400}" Name="User" NameU="User" Master="18">
+					<XForm>
+						<PinX Unit="IN_F">0.760869565217131</PinX>
+						<PinY Unit="IN_F">9.687500614598324</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="7" Name="Page-5" NameU="Page-5">
+			<Shapes>
+				<Shape ID="2" UniqueID="{0158670B-6977-4C08-8D40-A54F0D79980B}" Name="Panel" NameU="Panel" Master="5">
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">5.500000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{6EDAAFDC-294D-456C-A74A-E82DAAF52188}" Name="Text box" NameU="Text box" Master="6">
+					<Text>Group name</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.656250000000000</PinX>
+						<PinY Unit="IN_F">9.875000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{459714D8-1D08-4018-BA9D-8125322106DD}" Name="Text box.8" NameU="Text box.8" Master="6">
+					<Text>Contact name</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.281250000000000</PinX>
+						<PinY Unit="IN_F">8.750000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1" UniqueID="{67CE99E1-D697-4D18-B95D-A6EC851EB406}" Name="Users" NameU="Users" Master="37">
+					<XForm>
+						<PinX Unit="IN_F">0.917530560109912</PinX>
+						<PinY Unit="IN_F">9.875000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{630F56EB-7F1D-4039-B8F3-4ABB7EEC96CB}" Name="Add" NameU="Add" Master="38">
+					<XForm>
+						<PinX Unit="IN_F">7.500000000000000</PinX>
+						<PinY Unit="IN_F">8.750000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{2C5B1002-C848-45E3-9F25-8D4A7FEBEBF8}" Name="Label" NameU="Label" Master="9">
+					<Text>Add Group members:</Text>
+					<XForm>
+						<PinX Unit="IN_F">0.750000000000000</PinX>
+						<PinY Unit="IN_F">9.250000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{4E75B009-670C-4B9E-A273-EBC19C5482FD}" Name="Button" NameU="Button" Master="7">
+					<Text>Done</Text>
+					<XForm>
+						<PinX Unit="IN_F">7.125000000000000</PinX>
+						<PinY Unit="IN_F">9.900000000000000</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="10" Name="Page-6" NameU="Page-6">
+			<Shapes>
+				<Shape ID="1" UniqueID="{E7CCD84F-55B6-4F1C-B592-C49FDAD4D071}" Name="Panel" NameU="Panel" Master="5">
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">5.500000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{AC40EE3D-6E5D-4B76-91F8-36766FC2F478}" Name="Text box" NameU="Text box" Master="6">
+					<Text>Account</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">10.425000000000001</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{A1FE9B89-ACF7-4990-BEBB-38231D24B625}" Name="Text box.7" NameU="Text box.7" Master="6">
+					<Text>Name</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.125000000000000</PinX>
+						<PinY Unit="IN_F">9.581250000000001</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{E4059001-753F-4D8F-A41A-7A2E7868542A}" Name="Text box.8" NameU="Text box.8" Master="6">
+					<Text>Contact number</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.125000000000000</PinX>
+						<PinY Unit="IN_F">9.106249999999999</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{5867D8F8-7579-4204-AB4F-C1C9B985004B}" Name="Text box.9" NameU="Text box.9" Master="6">
+					<Text>Email id</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.125000000000000</PinX>
+						<PinY Unit="IN_F">8.631250000000005</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{1840882C-13FC-4BC4-823D-77CCEB43A9C0}" Name="Text box.10" NameU="Text box.10" Master="6">
+					<Text>Profile name</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.125000000000000</PinX>
+						<PinY Unit="IN_F">8.156250000000011</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{B8CB9AD4-50A5-45A9-99BF-BDB8E5929AE8}" Name="Text box.11" NameU="Text box.11" Master="6">
+					<Text>Account id</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.125000000000000</PinX>
+						<PinY Unit="IN_F">7.681250000000018</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{19AC1E71-1F53-4EFA-A175-1A652502EE1E}" Name="Text box.24" NameU="Text box.24" Master="6">
+					<Text>Password</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">5.281250000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{752D3357-05E5-4505-BACA-0AA1E93D3E17}" Name="Text box.25" NameU="Text box.25" Master="6">
+					<Text>Enter the password again</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">4.793750000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{4ADD811A-C49A-413E-9F9E-BFB7148E8A9D}" Name="Text box.26" NameU="Text box.26" Master="6">
+					<Text>Add Status</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">4.162500000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{CA042C94-09DC-4FD7-9A4F-EDFE95792460}" Name="Text box.27" NameU="Text box.27" Master="6">
+					<Text>Security question</Text>
+					<XForm>
+						<PinX Unit="IN_F">4.250000000000000</PinX>
+						<PinY Unit="IN_F">3.531250000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{0D7CAB55-A3CE-4876-985A-F771193C5AA2}" Name="Button" NameU="Button" Master="7">
+					<Text>Skip</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.375000000000000</PinX>
+						<PinY Unit="IN_F">5.725000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{26E87570-5FC9-4059-8C14-8A0144972EE7}" Name="Button.19" NameU="Button.19" Master="7">
+					<Text>Add profile picture</Text>
+					<XForm>
+						<PinX Unit="IN_F">2.687500000000000</PinX>
+						<PinY Unit="IN_F">5.725000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{124406E7-B61D-41D9-8560-B975DEA5E266}" Name="Drop down" NameU="Drop down" Master="13">
+					<XForm>
+						<PinX Unit="IN_F">7.500000000000000</PinX>
+						<PinY Unit="IN_F">3.531250000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{0FAAFF51-3A94-4CA5-9853-7365244FC707}" Name="Men" NameU="Men" Master="42">
+					<XForm>
+						<PinX Unit="IN_F">4.312500000000000</PinX>
+						<PinY Unit="IN_F">6.600000000000027</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

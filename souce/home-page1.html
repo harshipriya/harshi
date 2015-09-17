@@ -1,0 +1,78 @@
+
+
+ <!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+ <title> - jsFiddle demo by harshi22</title> 
+  
+  
+ <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js'></script> 
+  
+  
+  
+  
+ <link rel="stylesheet" type="text/css" href="/css/result-light.css"> 
+  
+ <style type='text/css'> 
+ .login, .input 
+ { 
+ max-width: 800px; 
+ color: #d8d8d8; 
+ font-size: 18px; 
+ margin: auto; 
+ padding: 10px; 
+ background-color:#39135F; 
+ border: ridge; 
+  
+ } 
+ </style> 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ <script type='text/javascript'>//<![CDATA[ 
+ 
+ 
+ function LoginController($scope) { 
+  
+ $scope.logins = []; 
+ $scope.login = function (user, pwd) { 
+ localStorage.setItem("name" , user); 
+ $scope.logins.push( localStorage.getItem("name") + " was logged in."); 
+ }; 
+ } 
+ //]]>  
+ 
+ 
+ </script> 
+ 
+ 
+ </head> 
+ <body> 
+ <div ng-app ng-controller="LoginController"> 
+  
+ <div class="login">Hello {{ user.firstName }}</div><br/> 
+  
+ <div class="input"> 
+ Username: <input ng-model="user.firstName"></input> 
+ <br/><br/> 
+ Password: <input ng-model="user.pwd" type="password"></input> 
+ <br/><br/> 
+ <input type="submit" ng-click="login(user.firstName, user.pwd)" onclick="'https://jsfiddle.net/harshi22/s9Ugr/504/embedded/result/'" value="Login"></input> 
+ <br/><br/> 
+ <p>Not a registered user!<input type="submit" " value="Register" onclick="window.location.href='https://jsfiddle.net/harshi22/517hnwhg/embedded/result/'"></input></p> 
+ </div>  
+ <div ng-repeat="login in logins">{{ login }}</div> 
+ </div> 
+  
+ </body> 
+ 
+ 
+ </html> 
+ 
+ 
+  

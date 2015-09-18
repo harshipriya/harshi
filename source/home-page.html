@@ -10,6 +10,7 @@
   
   
   
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js'></script>
   
   <script type="text/javascript" src="//code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
   <link rel="stylesheet" type="text/css" href="//code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
@@ -58,6 +59,14 @@
 
 <script type='text/javascript'>//<![CDATA[
    
+    function Load($scope) {
+    
+    $scope.logins = [];
+    $scope.login = function () {
+        $scope.logins.push( localStorage.getItem("name") + " was logged in.");
+    };
+}
+    
 $(window).load(function(){
 function weatherdetails(city, tag) {
     $.ajax({
@@ -127,7 +136,11 @@ button.addEventListener('click', onClick, false);
 </script>
 
 </head>
+   
 <body>
+     <div ng-app ng-controller="Load" ng-init="login()">
+<div ng-repeat="login in logins">{{ login }}</div>
+</div>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
 <div class="weatherModule">
     <p class="currentConditionsorigin">

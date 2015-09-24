@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASE Mash Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="index.js"></script>
+    <style>
+        body {
+            background-color: #8cb5e5;
+            -webkit-font-smoothing: antialiased;
+            font: normal 14px Roboto,arial,sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+<div class="col-md-offset-3 col-md-6" style="font-size: xx-large; border: dotted; margin-top: 40px; text-align: center">Student Home Page Page</div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <br/>
+            <div id="welcomeText" class="row" style="font-size: xx-large; margin-top: 20px;"></div>
+            <br/>
+            <div class="row" style="font-size: x-large; margin-top: 20px;"> Here is your QR-code for your Username:</div>
+            <br/>
+            <div class="row" id="qrImg" style="margin-left: 50px"></div>
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="row" style="font-size: xx-large; margin-top: 30px; color: brown; text-align: center">Address QR API</div>
+            <br/>
+            <input id="address" type="text" class="form-control input-sm chat-input" placeholder="Enter Address Here. Example: 714 E 54th TER KC MO" />
+            <div style="text-align: center"><button id="dicBtn" style="font-size: large; margin-top: 20px; text-align: center;">Search</button></div>
+            <br/>
+            <div class="row" id="addressResp"></div>
+            <br/>
+            <div class="row" id="coordinates"></div>
+            <br/>
+            <div id="tempHead" class="row" style="font-size: x-large; margin-top: 20px;"></div>
+            <br/>
+            <div class="row">
+                <div class="col-md-offset-2 col-md-4" id="latQR"></div>
+                <div class="col-md-4" id="longQR"></div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

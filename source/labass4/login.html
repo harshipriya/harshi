@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Roboto:400);
+        body {
+            background-color:#fff;
+            -webkit-font-smoothing: antialiased;
+            font: normal 14px Roboto,arial,sans-serif;
+        }
+
+        .container {
+            padding: 25px;
+            position: fixed;
+        }
+
+        .form-login {
+            background-color: #EDEDED;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 15px;
+            border-color:#d2d2d2;
+            border-width: 5px;
+            box-shadow:0 1px 0 #cfcfcf;
+        }
+
+        h4 {
+            border:0 solid #fff;
+            border-bottom-width:1px;
+            padding-bottom:10px;
+            text-align: center;
+        }
+
+        .form-control {
+            border-radius: 10px;
+        }
+
+        .wrapper {
+            text-align: center;
+        }
+
+    </style>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>-->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="index.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <br/>
+        <div class="col-md-offset-6 col-md-4">
+            <div class="form-login">
+                <h4>Login Please</h4>
+                <input id="userName" type="text" class="form-control input-sm chat-input" placeholder="username" />
+                </br>
+                <input type="password" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
+                </br>
+                <div class="wrapper">
+            <span class="group-btn">
+                <a id="submitBtn" href="index.html" class="btn btn-primary btn-md">login <i class="fa fa-sign-in"></i></a>
+            </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

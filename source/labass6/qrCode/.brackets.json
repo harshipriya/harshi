@@ -1,0 +1,11 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/Hariprasad/Desktop/qrCode/platforms/android/platform_www/cordova.js",
+        "C:/Users/Hariprasad/Desktop/qrCode/gulpfile.js",
+        "C:/Users/Hariprasad/Desktop/qrCode/platforms/ios/cordova/lib/build.js",
+        "C:/Users/Hariprasad/Desktop/qrCode/platforms/ios/cordova/lib/check_reqs.js",
+        "C:/Users/Hariprasad/Desktop/qrCode/www/js/ng-cordova.min.js",
+        "C:/Users/Hariprasad/Desktop/qrCode/www/js/firebase.js",
+        "C:/Users/Hariprasad/Desktop/qrCode/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.min.js"
+    ]
+}

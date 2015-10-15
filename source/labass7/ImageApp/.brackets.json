@@ -1,0 +1,16 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/android/platform_www/cordova-js-src/plugin/android/app.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/android/platform_www/cordova-js-src/exec.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/android/platform_www/cordova-js-src/platform.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/android/platform_www/cordova.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/ios/cordova/lib/build.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/ios/cordova/lib/check_reqs.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/ios/cordova/lib/clean.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/ios/cordova/lib/run.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/ios/cordova/lib/spawn.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/platforms/android/cordova/lib/spawn.js",
+        "C:/Users/Hariprasad/Desktop/ImageApp/www/js/app1.js"
+    ]
+}

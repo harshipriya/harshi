@@ -1,0 +1,102 @@
+
+
+ <!DOCTYPE html> 
+ <html> 
+ <head> 
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+ <title>register page - jsFiddle demo by harshi22</title> 
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+
+  
+ <link rel="stylesheet" type="text/css" href="/css/normalize.css"> 
+  
+  <script src="js/dataBase.js"></script>
+ <link rel="stylesheet" type="text/css" href="/css/result-light.css"> 
+  
+ <style type='text/css'> 
+ .center{text-align:center;margin-top:1em;} 
+ body 
+ { 
+ background-color: #6591A7; 
+ color: white; 
+ } 
+  
+ form 
+ { 
+     font-size: 20px;
+ text-align: justify; 
+ border-style: ridge; 
+ border-color:#39135F; 
+ margin: 20px; 
+ padding:20px; 
+ } 
+ h2 
+ { 
+ color:black; 
+ } 
+ } 
+ div.form 
+ { 
+ text-align: inherit; 
+ padding: 10px; 
+ } 
+ form label {display:inline-block; width:200px;} 
+ form input[type="text"],form input[type="password"] 
+ { 
+ width = 250px; 
+ } 
+ form .line {clear:both;} 
+ </style> 
+  
+ </head> 
+ <body ng-app="myApp" ng-controller="RegisterController"> 
+       <ion-pane>
+           <ion-header-bar class="bar bar-header bar-dark">
+        <h1 class="title">Student Account</h1>
+    </ion-header-bar>
+          <br>
+          <br>
+          <br>
+          <ion-content class="padding">
+    <div class="container">
+          <form class="login-form" >
+        <h2>Please sign in</h2>
+        <label for="userName" class="sr-only">Username<superscript>*</superscript>:</label>
+        <input type="text" id="userName" class="form-control" placeholder="Username" required autofocus ng-model="userName" ><br><br>
+        <label for="Password" class="sr-only">Password<superscript>*</superscript>:</label>
+        <input type="password" id="Password" class="form-control" placeholder="Password" required ng-model="Password">
+		<br>
+               <p> <div class="line"><label for="pwd">Confirm Password<superscript>*</superscript>: </label> 
+ <input type="password" id="pwd" placeholder="enter the same password" /></div></p> 
+ <p> <div class="text"><label for="surname">Surname<superscript>*</superscript>: </label> 
+ <input type="text" id="surname" /></div></p>
+ <p> <div class="text"><label for="other_names">Given Name<superscript>*</superscript>: </label> 
+ <input type="text" id="names" /></div></p>
+ <p> <div class="text"><label for="dob">Date of Birth<superscript>*</superscript>: </label> 
+ <input type="text" id="dob" /></div><p> 
+ <p> <div class="text"><label for="email">Email<superscript>*</superscript>: </label><input type="email" id="email" /></div><p> 
+  
+ <p> Gender: <input type="radio" name="sex" value="male" checked> Male 
+ <input type="radio" name="sex" value="female"> Female</p> 
+ <div class="line"><label for="tel">Telephone: </label><input type="text" id="tel" /></div>
+ <p><div class="line"><label for="add">Address *: </label><input type="text" id="add" /></div></p> 
+ <p><div class="line"><label for="ptc">Post Code *: </label><input type="text" id="ptc" /></div></p> 
+ 
+ 
+ <p>Note: Please make sure your details are correct before submitting and all fields marked with * are completed!.</p> 
+        <button class="btn btn-lg btn-primary btn-block" ng-click="register(userName,Password)" type="submit">login</button>
+		
+      </form>
+
+    </div>
+              </ion-content>
+          </ion-pane>
+
+ </body> 
+ 
+ 
+ </html> 
+ 
+ 
+  

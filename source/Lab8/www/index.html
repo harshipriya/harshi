@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<title>AngularJS Login Form</title>
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+<script src="js/ng-cordova.min.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/angularfire.min.js"></script>
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+      <script src="js/app1.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+		.login-form {
+			max-width: 300px;
+			margin: 0 auto;
+		}
+		#inputUsername {
+		  margin-bottom: -1px;
+		  border-bottom-right-radius: 0;
+		  border-bottom-left-radius: 0;
+		}
+		#inputPassword {
+			border-top-left-radius: 0;
+  			border-top-right-radius: 0;
+		}
+	</style>
+  </head>
+  <body ng-app="starter1" ng-controller='LoginCtrl'>
+      <ion-pane>
+           <ion-header-bar class="bar bar-header bar-dark">
+        <h1 class="title">Student Account</h1>
+    </ion-header-bar>
+          <br>
+          <br>
+          <br>
+          <ion-content class="padding">
+    <div class="container">
+          <form class="login-form" >
+        <h2>Please sign in</h2>
+        <label for="userName" class="sr-only">Username</label>
+        <input type="text" id="userName" class="form-control" placeholder="Username" required autofocus ng-model="userName" >
+        <label for="Password" class="sr-only">Password</label>
+        <input type="password" id="Password" class="form-control" placeholder="Password" required ng-model="Password">
+		<br>
+        <button class="btn btn-lg btn-primary btn-block" ng-click="login(username, password)" type="submit">login</button><br>
+		<button class="btn btn-lg btn-primary btn-block" onclick="window.location.href='register-page.html'" type="submit">Register</button>
+      </form>
+
+    </div>
+              </ion-content>
+          </ion-pane>
+    </body>

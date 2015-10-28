@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="" data-ng-app="QRCode">
+<head>  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<title>Angular Demo</title>
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+<script src="js/ng-cordova.min.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/angularfire.min.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+    <script src="js/dataBase.js"></script>
+  <script src="js/app3.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+  
+    
+  <style>
+        body {
+            background-color: #8cb5e5;
+            -webkit-font-smoothing: antialiased;
+            font: normal 14px Roboto,arial,sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+<ion-pane>
+    <ion-header-bar class="bar bar-header bar-dark">
+        <h1 class="title">Student Account</h1>
+    </ion-header-bar>
+    <ion-content class="padding">
+               <div ng-app="starter1" ng-controller="LoginCtrl"><button id="btn" ng-click="updateuser1(new_user_name,new_last_name,new_password)">Update</button><br><br>
+         <button id="btn" ng-click="deleteuser1(user_name)">Delete</button></div><br><br>
+<div class="wrapp" ng-controller="qrcode">
+    <div class="row">
+<div class="col-md-offset-3 col-md-6" style="font-size: xx-large; border: dotted; margin-top: 40px; text-align: center">Student Home Page</div>
+</div>
+    <div class="col-md-15">
+        <br>
+        <br>
+        <!--<div id="username">Welcome </div>-->
+
+        <input id="address" type="text" class="form-control input-sm chat-input" placeholder="Enter Address Here. Example: 714 E 54th TER KC MO" />
+        <br>
+        <br>
+        <p><button id="btn" ng-click="getdetails()">Get details</button></p>
+<!-- Latitude and Longitude values-->
+    <p>Latitude :<span ng-bind="lat"></span> </p>
+    <p>Longitude :<span ng-bind="lng"></span></p>
+    
+    <div style="text-align: center"><button id="btn" ng-click="storeinQR()" style="font-size: large; margin-top: 20px; text-align: center;">Search</button></div>
+<img src="" id="qrimg">
+    </div>
+</div>
+         <button class="btn btn-lg btn-primary btn-block" onclick="window.location.href='camtest.html'" type="submit">Home</button>
+        </ion-content>
+    </ion-pane>
+    
+</body> 
+</html>
+<script>
+angular.module('QRCode', [])
+.controller('qrcode', function ($scope, $http) {
+
+       // document.getElementById('username').innerHTML += localStorage.getItem('UserName');  
+    //Gernerating QR code function by concatinating latitud and longitude in Qr code api
+$scope.storeinQR = function() {
+     document.getElementById("qrimg").src = "https://api.qrserver.com/v1/create-qr-code/?data="+$scope.lat+'/'+$scope.lng+"&amp;size=500x500" ; 
+        
+}
+
+$scope.getdetails = function () {  
+    //google api for retrieving latitude and longitude of the address
+    $http.get("https://maps.googleapis.com/maps/api/geocode/json?address="+document.getElementById("address").value+"&key=AIzaSyAheS8Atosp_7xv9W3TK-SKIqcBRfevK54").success(function(data) {
+        $scope.lat = data.results[0].geometry.location.lat;            
+        $scope.lng = (data.results[0].geometry.location.lng * -1);
+        console.log($scope.lat);
+        console.log($scope.lng);
+        console.log(data);
+    });                  
+};
+
+
+
+});
+
+                
+
+</script>
